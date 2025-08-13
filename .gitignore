@@ -1,12 +1,8 @@
-    # Python-generated files
-    __pycache__/
-    *.py[oc]
-    build/
-    dist/
-    wheels/
-    *.egg-info
+# Ignore entire virtual environment
+venv/
 
-    # Virtual environments
-    .venv
-    .env
-    .ipynb_checkpoints/`
+# (Optional) In case it's in a differently named folder)
+.env/
+.venv/
+ENV/
+env/
